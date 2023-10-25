@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" lang="pt-br">
+  <title>Melhores Filmes do Momento</title>
+  <link rel="icon" href="logofavicon.png" sizes="20x20">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+  <style>
+    .icones {
+      color: rgb(255, 255, 255);
+    }
+
+    .alinhaCentro {
+      text-align: center;
+    }
+
+    .containerFilmes {
+      background-color: rgb(74, 62, 153);
+      border-radius: 5px;
+      padding: 28px;
+    }
+
+    .card video {
+      height: auto;
+      width: auto;
+      margin-top: auto;
+    }
+
+    .card h5 {
+      height: 30px;
+    }
+
+    .card p {
+      height: 125px;
+      margin-top: 20px;
+      overflow: auto;
+    }
+
+    video[poster] {
+      height: 420px;
+      width: 100%;
+      margin: auto;
+      margin-top: auto;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #fafafa;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!--Inicio NavBar -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" width="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Series/Series.html">Nossas Series</a>
+          </li>
+
+          <li class="nav-item">
+            <li><a class="nav-link" href="Lancamentos/lancamentos.html">Lançamentos</a></li>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-info" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- fim navbar-->
+  <!-- inicio container contato-->
+  <div class="container mt-04">
+
+    <div class="row">
+      <div class="col-md-4 col-sm-12 alinhaCentro">
+        <i class="bi bi-telephone-fill icones btn btn-dark"></i> (19) 99650-1818
+      </div>
+
+      <div class="col-md-4 col-sm-12 alinhaCentro">
+        <i class="bi bi-envelope-fill icones btn btn-dark"></i> nossofilmeserie@gmail.com
+      </div>
+
+      <div class="col-md-4 col-sm-12 alinhaCentro">
+        <button class="btn btn-dark" type="button"><i class="bi bi-facebook icones "></i></button>
+        <button class="btn btn-dark" type="button"><i class="bi bi-instagram icones "></i></button>
+        <button class="btn btn-dark" type="button"><i class="bi bi-youtube icones "></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 alinhaCentro">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 alinhaCentro">
+        <h4 class="display-4">Top Lista dos Melhores filmes </h4>
+        <p class="lead">Conheça os Filmes</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Fim container contato-->
+
+  <!-- Inicio container filmes-->
+  <div class="container containerFilmes">
+
+    <div class="row">
+      <div class="col-12">
+        <h6 class="display-6">
+          <i class="bi bi-house-fill icones"></i>
+          Nossos Filmes
+        </h6>
+      </div>
+    </div>
+
+    <!-- primeira linha filmes-->
+
+    <div class="row mb-4">
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Como eu Era Antes de Você" poster="Imagens/number1.jpg">
+            <source src="Videos/number1.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">O ÓDIO QUE VOCÊ SEMEIA</h5>
+            <p class="card-text">6 de dezembro de 2018 No cinema/2h 13min/Drama<br />
+              Direção: George Tillman Jr.<br />
+              Roteiro: Audrey Wells<br />
+              Elenco:Amandla Stenberg,Regina Hall,Russell Hornsby<br />
+              Título originalThe Hate U Give</p>
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 14 anos</b><br />Starr Carter (Amandla Stenberg) é uma adolescente
+              negra de dezesseis
+              anos que presencia o assassinato de Khalil, seu melhor amigo, por um policial branco. Ela é forçada a
+              testemunhar
+              no tribunal por ser a única pessoa presente na cena do crime. Mesmo sofrendo uma série de chantagens, ela
+              está
+              disposta a dizer a verdade pela honra de seu amigo, custe o que custar.
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Como eu Era Antes de Você" poster="Imagens/number2.jpg">
+            <source src="Videos/number2.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">A CULPA É DAS ESTRELAS</h5>
+            <p class="card-text">Data de lançamento: 5 de junho de 2014 (Brasil)<br />
+              Diretor: Josh Boone<br />
+              Autor: John Green<br />
+              Adaptação de: A Culpa É das Estrelas<br />
+              Edição: Robb Sullivan<br />
+              Roteiro: Josh Boone, Michael H. Weber, Scott Neustadter</p>
+
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 12 anos</b><br />
+              Diagnosticada com câncer, a adolescente Hazel Grace Lancaster (Shailene Woodley) se mantém viva graças a
+              uma droga experimental.
+              Após passar anos lutando com a doença, ela é forçada pelos pais a participar de um grupo de apoio cristão.
+              Lá, conhece Augustus
+              Waters (Ansel Elgort), um rapaz que também sofre com câncer. Os dois possuem visões muito diferentes de
+              suas doenças: Hazel
+              preocupa-se apenas com a dor que poderá causar aos outros, já Augustus sonha em deixar a sua própria marca
+              no mundo. Apesar das
+              diferenças, eles se apaixonam. Juntos, atravessam os principais conflitos da adolescência e do primeiro
+              amor, enquanto lutam para
+              se manter otimistas e fortes um para o outro.
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Como eu Era Antes de Você" poster="Imagens/number3.jpg">
+            <source src="Videos/number3.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">COMO EU ERA ANTES DE VOCÊ</h5>
+            <p class="card-text">16 de junho de 2016 No cinema / 1h 50min / Drama, Romance<br />
+              Direção: Thea Sharrock<br />
+              Roteiro: Jojo Moyes<br />
+              Elenco: Emilia Clarke, Sam Claflin, Janet McTeer<br />
+              Título original Me Before You</p>
+
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 12 anos</b><br />
+              Em Como Eu Era Antes de Você, o rico e bem sucedido Will (Sam Claflin) leva uma vida repleta de
+              conquistas,
+              viagens e esportes radicais até ser atingido por uma moto. O acidente o torna tetraplégico, obrigando-o a
+              permanecer em uma cadeira de rodas. A situação o torna depressivo e extremamente cínico, para a
+              preocupação
+              de seus pais (Janet McTeer e Charles Dance). É neste contexto que Louisa Clark (Emilia Clarke) é
+              contratada
+              para cuidar de Will. De origem modesta, com dificuldades financeiras e sem grandes aspirações na vida, ela
+              faz o possível para melhorar o estado de espírito de Will e, aos poucos, acaba se envolvendo com ele.
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Segunda linha filmes-->
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Como eu Era Antes de Você" poster="Imagens/number4.jpg">
+            <source src="Videos/number4.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">MILAGRE DO PARAÍSO</h5>
+            <p class="card-text">Milagres do Paraíso<br />
+              21 de abril de 2016 No cinema / 1h 49min / Drama<br />
+              Direção: Patricia Riggen<br />
+              Roteiro: Randy Brown<br />
+              Elenco: Jennifer Garner, Kylie Rogers, Martin Henderson<br />
+              Título original Miracles From Heaven<br />
+              ASSISTA AGORA EM STAR +</p>
+
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 10 anos</b><br />
+              Em Milagres do Paraíso, Christy (Jennifer Garner) e Kevin Beam (Martin Henderson) são pais de três
+              meninas:
+              Abbie (Brighton Sharbino), Annabel (Kylie Rogers) e Adelynn (Courtney Fansler). Eles vivem em uma
+              confortável
+              casa, junto de cinco cachorros, e acabaram de abrir uma clínica veterinária, o que fez com que tivessem
+              que
+              apertar os cintos e hipotecar a casa. Cristãos convictos, os Beam vão à igreja com frequência. Um dia,
+              Annabel
+              começa a sentir fortes dores na região do abdômen e, após diversos exames, é constatado que a garota
+              possui
+              um grave problema digestivo. Tal situação faz com que Christy busque a todo custo algum meio de salvar a
+              vida
+              da filha, ao mesmo tempo em que se afasta cada vez mais de sua crença em Deus.
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Como eu Era Antes de Você" poster="Imagens/number5.jpg">
+            <source src="Videos/number5.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">EM RITMO DE FUGA</h5>
+            <p class="card-text">27 de julho de 2017 No cinema / 1h 53min / Ação, Policial<br />
+              Direção: Edgar Wright<br />
+              Roteiro: Edgar Wright<br />
+              Elenco: Ansel Elgort, Kevin Spacey, Lily James<br />
+              Título original Baby Driver </p>
+
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 14 anos</b><br />
+              Em Ritmo de Fuga, o jovem Baby (Ansel Elgort) tem uma mania curiosa: precisa ouvir músicas o tempo todo
+              para
+              silenciar o zumbido que perturba seus ouvidos desde um acidente na infância. Excelente motorista, ele é o
+              piloto
+              de fuga oficial dos assaltos de Doc (Kevin Spacey), mas não vê a hora de deixar o cargo, principalmente
+              depois
+              que se vê apaixonado pela garçonete Debor(LilyJames).
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <video controls muted loop preload="Fique Rico ou Morra Tentando" poster="Imagens/number6.jfif">
+            <source src="Videos/number6.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">FIQUE RICO OU MORRA TENTANDO</h5>
+            <p class="card-text">9 de Novembro de 2005 No cinema / 1h 53min / ação, drama<br />
+              Direção: Jim Sheridan<br />
+              Roteiro: Terence Winter<br />
+              Elenco: 50 Cent, Adewale Akinnuoye-Agbaje, Omar Benson Miller<br />
+              Título original Get Rich or Die Tryin' </p>
+
+            <p><b>SINOPSE:</b><br />
+              <b>Não recomendado para menores de 14 anos</b><br />
+              Marcus (50 Cent) é um jovem da periferia que se envolveu em um tiroteio, que por pouco não lhe
+              tirou a vida. Em meio à sua recuperação, ele se lembra de sua vida difícil como órfão nas ruas violentas
+              do Bronx.
+              Sua vida muda após conhecer um ex-condenado, que luta para se tornar uma estrela do rap.
+            </p>
+            <a href="#" class="btn btn-dark">Conheça</a>
+          </div>
+        </div>
+      </div>
+      <p></p>
+    </div>
+
+    <!--inicio container Lancamentos-->
+
+    <div class="row">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Quer Mais ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <video controls muted loop preload="Moonlight: Sob a Luz do Luar" poster="Imagens/number7.jfif">
+                <source src="Videos/number7.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h5 class="card-title"><b>Moonlight: Sob a Luz do Luar</b></h5>
+                <p class="card-text">23 de fevereiro de 2017 No cinema / 1h 51min / Drama<br />
+                  Direção: Barry Jenkins<br />
+                  Roteiro: Barry Jenkins<br />
+                  Elenco: Alex R. Hibbert, Ashton Sanders, Trevante Rhodes<br />
+                  Título original: Moonlight</p>
+
+                <p><b>SINOPSE:</b><br />
+                  <b>Não recomendado para menores de 16 anos</b><br />
+                  Em Moonlight: Sob a Luz do Luar, acompanhamos três momentos da vida de Chiron, um jovem negro morador
+                  de uma comunidade pobre de Miami. Do bullying na infância, passando pela crise de identidade da
+                  adolescência e a tentação do universo do crime e das drogas, este é um poético estudo de personagem.
+                </p>
+                <a href="#" class="btn btn-dark">Conheça</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Mais um pouco?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Em breve estará disponivel...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- fim container Filmes-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
